@@ -1,0 +1,31 @@
+.HeaderStyle {
+  padding: 10px 100px;
+  background: #1d293780;
+  box-shadow: none;
+}
+
+/* .slider {
+  width: 100%;
+  height: 98vh;
+} */
+
+.MobileLogo {
+  display: none;
+}
+.navLink {
+  background-color: #5ab3f7;
+  padding: 5px 16px;
+  color: black;
+  /* border-radius: 10px !important; */
+}
+@media screen and (max-width: 1024px) {
+  .HeaderStyle {
+    padding: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .MobileLogo {
+    display: block;
+  }
+}
